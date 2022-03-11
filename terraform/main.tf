@@ -3,7 +3,7 @@ module "sandbox" {
 
   control_tower_parameters = {
     AccountEmail              = "eruiogni@hotmail.com"
-    AccountName               = "sandbox-01"
+    AccountName               = "sandbox-03"
     ManagedOrganizationalUnit = "learnAFT"
     SSOUserEmail              = "eruiogni@hotmail.com"
     SSOUserFirstName          = "Sandbox"
@@ -21,6 +21,7 @@ module "sandbox" {
 
   custom_fields = {
     group = "non-prod"
+    #active = "true" #boolean
   }
 
   account_customizations_name = "sandbox"
